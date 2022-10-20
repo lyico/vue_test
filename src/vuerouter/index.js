@@ -21,6 +21,12 @@ export default class VueRouter {
 
     // 3.把创建Vue实例时候传入的router对象注入到Vue实例上
 
+    _Vue.mixins({
+      beforeCreate() {
+        console.log("123");
+      },
+    });
+
     //混入
     _Vue.mixins({
       beforeCreate() {
@@ -35,5 +41,6 @@ export default class VueRouter {
     this.options = options;
     this.routerMap = {}; //key: 为路由路径   value为组件
     // this.data = _Vue.ob
+    // this.data =
   }
 }

@@ -1,5 +1,5 @@
 {
-  "editor.formatOnSave": true,
+  "editor.formatOnSave": false,
   "editor.tabSize": 2,
   "stylusSupremacy.insertColons": true, // 是否插入冒号
   "stylusSupremacy.insertSemicolons": true, // 是否插入分好
